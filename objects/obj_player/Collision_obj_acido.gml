@@ -1,8 +1,8 @@
-
-if (!imune_acido)
-{
-    vida --;
-}
+    
+    if (!imune_acido)
+    {
+        vida --;
+    }
 
 
 

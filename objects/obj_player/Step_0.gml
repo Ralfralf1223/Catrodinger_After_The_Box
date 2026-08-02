@@ -37,3 +37,11 @@ if (tipo_gato != 3)
     
     
 }
+
+if (tipo_gato != 4 )
+{
+    
+    imune_raio = false;
+    
+    
+}

@@ -15,7 +15,7 @@ vida     =    1;
 
 tipo_gato = 0;
 imune_acido = 0;
-
+imune_raio  = 0;
 
 
 right = 0
@@ -203,7 +203,7 @@ estado_caixa = function ()
         
         
     
-    tipo_gato = irandom(2);
+    tipo_gato = choose(0, 0, 1, 1, 2);
 
 switch(tipo_gato)
 {
@@ -223,6 +223,11 @@ switch(tipo_gato)
     
     case 3:
         troca_sprite(spr_player_idle_esqueleto);
+        estado = estado_parado;
+        break;
+    
+     case 4:
+        troca_sprite(spr_gato_choque);
         estado = estado_parado;
         break;
     
@@ -271,6 +276,8 @@ atualiza_sprite = function(_estado)
                 troca_sprite(spr_player_idle_laranja);
             else if (tipo_gato == 3)
                 troca_sprite(spr_player_idle_esqueleto)
+            else if (tipo_gato == 4)
+                troca_sprite(spr_gato_choque)
         break;
 
         case "move":
@@ -280,6 +287,8 @@ atualiza_sprite = function(_estado)
                 troca_sprite(spr_player_move_laranja);
             else if (tipo_gato == 3)
             	troca_sprite(spr_player_idle_esqueleto)
+            else if (tipo_gato == 4)
+                troca_sprite(spr_gato_choque)
         break;
 
         case "jump":
@@ -289,6 +298,8 @@ atualiza_sprite = function(_estado)
                 troca_sprite(spr_player_idle_laranja);
             else if (tipo_gato == 3)
                 troca_sprite(spr_player_idle_esqueleto)
+            else if (tipo_gato == 4)
+                troca_sprite(spr_gato_choque)
         break;
 
         case "caixa":
