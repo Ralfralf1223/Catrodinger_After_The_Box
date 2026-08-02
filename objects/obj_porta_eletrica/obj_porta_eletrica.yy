@@ -1,18 +1,20 @@
 {
   "$GMObject":"",
-  "%Name":"obj_passa_level",
+  "%Name":"obj_porta_eletrica",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_passa_level",
+  "name":"obj_porta_eletrica",
   "overriddenProperties":[],
   "parent":{
     "name":"Objetos",
     "path":"folders/Objetos.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"obj_parede",
+    "path":"objects/obj_parede/obj_parede.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -27,17 +29,15 @@
   "physicsShapePoints":[],
   "physicsStartAwake":true,
   "properties":[
-    {"$GMObjectProperty":"v2","%Name":"Destino","filters":[
-        "GMRoom",
-      ],"listItems":[],"multiselect":false,"name":"Destino","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":{"name":"rm_1","path":"rooms/rm_1/rm_1.yy",},"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"rm_1","varType":5,},
+    {"$GMObjectProperty":"v2","%Name":"paineis_necessarios","filters":[],"listItems":[],"multiselect":false,"name":"paineis_necessarios","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"1","varType":1,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_parede_pequena",
-    "path":"sprites/spr_parede_pequena/spr_parede_pequena.yy",
+    "name":"spr_porta_eletrica",
+    "path":"sprites/spr_porta_eletrica/spr_porta_eletrica.yy",
   },
   "spriteMaskId":null,
-  "visible":false,
+  "visible":true,
 }

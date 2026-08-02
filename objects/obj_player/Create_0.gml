@@ -54,9 +54,18 @@ aplica_velocidade = function ()
  checa_chao();
     
     
+    if (tipo_gato == 4)
+    {
+        
+        velh = (right - left) * max_velh * 2;
+        
+    }
+     else
+    {       
+        //aplicando os inputs
+        velh = (right - left) * max_velh;
     
-       //aplicando os inputs
-  velh = (right - left) * max_velh;
+    }  
     
   
     
@@ -67,6 +76,7 @@ aplica_velocidade = function ()
         
         {
           
+                
              velv += grav;
         }
      else 
@@ -77,14 +87,21 @@ aplica_velocidade = function ()
             y = round(y);
             
             if (jump)
+                
+                 
+            
                 {
+                    
                 if (tipo_gato == 1) // Gato laranja
                 {
+                    
+                    audio_play_sound(sd_pulo, 1, 0)
                     velv = -max_velv * 2;
                 }
                     
-                else // Gato branco
+                else if (estado != estado_caixa) // Gato branco
                 {
+                    audio_play_sound(sd_pulo, 1, 0)
                     velv = -max_velv;
                 }
                 }
@@ -144,6 +161,7 @@ estado_parado = function ()
 
     if (jump || !chao)
         estado = estado_pulando;
+        
 }
 
 
@@ -180,64 +198,36 @@ estado_morrendo = function ()
 
 estado_caixa = function ()
 {
-    
-    velv = 0
-    velh = 0
+    velv = 0;
+    velh = 0;
     aplica_velocidade();
-    troca_sprite(spr_caixa)
-    
-    
-    
+
+    troca_sprite(spr_caixa);
+
     if (jump)
     {
-        
-        
         velv = 0;
-        
     }
-    
-    
-    
-    if (keyboard_check_pressed(ord("C")))
+
+    if (keyboard_check_pressed(ord("B")))
     {
-        
-        
-    
-    tipo_gato = choose(0, 0, 1, 1, 2);
-
-switch(tipo_gato)
-{
-    case 0:
-        troca_sprite(spr_player_idle);
+        tipo_gato = 0;
         estado = estado_parado;
-        break;
-
-    case 1:
-        troca_sprite(spr_player_idle_laranja);
-        estado = estado_parado;
-        break;
-
-    case 2:
-        estado = estado_morto;
-        break;
-    
-    case 3:
-        troca_sprite(spr_player_idle_esqueleto);
-        estado = estado_parado;
-        break;
-    
-     case 4:
-        troca_sprite(spr_gato_choque);
-        estado = estado_parado;
-        break;
-    
-    
-    
-    
+        audio_play_sound(sd_selection, 1, 0);
     }
+
+    if (keyboard_check_pressed(ord("L")))
+    {
+        tipo_gato = 1;
+        estado = estado_parado;
+        audio_play_sound(sd_selection, 1, 0);
+    }
+
+        
+    
     
 }
-}
+
     
    
    
@@ -349,6 +339,8 @@ estado_movendo = function ()
 estado_pulando = function ()
 {
     aplica_velocidade();
+    
+   
 
     atualiza_sprite("jump");
 
