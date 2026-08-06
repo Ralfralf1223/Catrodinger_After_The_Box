@@ -61,6 +61,7 @@
     {"id":{"name":"rm_final_baixo","path":"rooms/rm_final_baixo/rm_final_baixo.yy",},},
     {"id":{"name":"rm_final_cima","path":"rooms/rm_final_cima/rm_final_cima.yy",},},
     {"id":{"name":"sc_configs","path":"scripts/sc_configs/sc_configs.yy",},},
+    {"id":{"name":"sq_01","path":"sequences/sq_01/sq_01.yy",},},
     {"id":{"name":"sd_porta_ele","path":"sounds/sd_porta_ele/sd_porta_ele.yy",},},
     {"id":{"name":"sd_porta","path":"sounds/sd_porta/sd_porta.yy",},},
     {"id":{"name":"sd_pulo","path":"sounds/sd_pulo/sd_pulo.yy",},},

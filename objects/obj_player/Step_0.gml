@@ -6,23 +6,39 @@ movimento();
 ajusta_xscale();
 estado();
 estado_morrendo();
+abre_porta();
+
+
+
+
+  //if (keyboard_check_pressed(ord("E")) && tipo_gato == 0 && estado != estado_caixa) 
+//{
+    //var porta = instance_place(x + dir * 8, y, obj_porta);
+//
+    //
+    //
+    //if (porta != noone)
+    //{
+        //with (obj_porta)
+        //{
+        	//
+            //
+            //estado = "abrindo"
+            //
+        //}
+        //audio_play_sound(sd_porta, 1, 0)
+    //}
+//}
 
 
 
 
 
-  if (keyboard_check_pressed(ord("E")) && tipo_gato == 0 && estado != estado_caixa) 
-{
-    var porta = instance_place(x + dir * 8, y, obj_porta);
 
-    
-    
-    if (porta != noone)
-    {
-        instance_destroy(porta);
-        audio_play_sound(sd_porta, 1, 0)
-    }
-}
+
+
+
+
 
 
 if (keyboard_check_pressed(ord("R")))
