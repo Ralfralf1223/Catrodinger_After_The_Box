@@ -22,7 +22,6 @@
     {"name":"inst_2BD76DFF","path":"rooms/rm_1/rm_1.yy",},
     {"name":"inst_4A2B4200","path":"rooms/rm_1/rm_1.yy",},
     {"name":"inst_30E8764D","path":"rooms/rm_1/rm_1.yy",},
-    {"name":"inst_514C1793","path":"rooms/rm_1/rm_1.yy",},
     {"name":"inst_4B69ABBC","path":"rooms/rm_1/rm_1.yy",},
   ],
   "isDnd":false,
@@ -50,8 +49,7 @@
         {"$GMRInstance":"v4","%Name":"inst_30E8764D","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_30E8764D","objectId":{"name":"obj_passa_level","path":"objects/obj_passa_level/obj_passa_level.yy",},"properties":[
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_passa_level","path":"objects/obj_passa_level/obj_passa_level.yy",},"propertyId":{"name":"Destino","path":"objects/obj_passa_level/obj_passa_level.yy",},"resource":{"name":"rm_baixo4","path":"rooms/rm_baixo4/rm_baixo4.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"rm_baixo4",},
           ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":192.0,"y":12.0,},
-        {"$GMRInstance":"v4","%Name":"inst_514C1793","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_514C1793","objectId":{"name":"obj_gato_raio","path":"objects/obj_gato_raio/obj_gato_raio.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":48.0,"y":156.0,},
-        {"$GMRInstance":"v4","%Name":"inst_4B69ABBC","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_4B69ABBC","objectId":{"name":"obj_gato_dead","path":"objects/obj_gato_dead/obj_gato_dead.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":132.0,"y":68.0,},
+        {"$GMRInstance":"v4","%Name":"inst_4B69ABBC","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_4B69ABBC","objectId":{"name":"obj_gato_dead","path":"objects/obj_gato_dead/obj_gato_dead.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":60.0,"y":152.0,},
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRBackgroundLayer":"","%Name":"Background","animationFPS":30.0,"animationSpeedType":0,"colour":4294967295,"depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":true,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Background","properties":[],"resourceType":"GMRBackgroundLayer","resourceVersion":"2.0","spriteId":{"name":"spr_bg_03","path":"sprites/spr_bg_03/spr_bg_03.yy",},"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":0.0,"vtiled":true,"x":0,"y":0,},
   ],
