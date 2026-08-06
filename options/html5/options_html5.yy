@@ -7,6 +7,11 @@
       "option_html5_index":"use_default",
       "option_html5_interpolate_pixels":"false",
     },
+    "Windows":{
+      "option_html5_loadingbar":"use_default",
+      "option_html5_index":"use_default",
+      "option_html5_interpolate_pixels":"false",
+    },
   },
   "name":"HTML5",
   "option_html5_allow_fullscreen":true,

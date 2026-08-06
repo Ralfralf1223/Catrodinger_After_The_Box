@@ -276,20 +276,20 @@ atualiza_sprite = function(_estado)
             else if (tipo_gato == 1)
                 troca_sprite(spr_player_move_laranja);
             else if (tipo_gato == 3)
-            	troca_sprite(spr_player_idle_esqueleto)
+            	troca_sprite(spr_move_esqueleto)
             else if (tipo_gato == 4)
-                troca_sprite(spr_gato_choque)
+                troca_sprite(spr_move_choque)
         break;
 
         case "jump":
             if (tipo_gato == 0)
-                troca_sprite(spr_player_idle);
+                troca_sprite(spr_player_jump_branco);
             else if (tipo_gato == 1)
-                troca_sprite(spr_player_idle_laranja);
+                troca_sprite(spr_player_jump_laranja);
             else if (tipo_gato == 3)
-                troca_sprite(spr_player_idle_esqueleto)
+                troca_sprite(spr_player_jump_esqueleto)
             else if (tipo_gato == 4)
-                troca_sprite(spr_gato_choque)
+                troca_sprite(spr_player_jump_choque)
         break;
 
         case "caixa":
