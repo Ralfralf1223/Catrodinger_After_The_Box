@@ -3,7 +3,7 @@
   "%Name":"spr_player_jump_laranja",
   "bboxMode":2,
   "bbox_bottom":10,
-  "bbox_left":4,
+  "bbox_left":7,
   "bbox_right":22,
   "bbox_top":2,
   "collisionKind":1,

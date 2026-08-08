@@ -42,7 +42,8 @@ maquina_estados = function()
     	case "fechada":
         {
             
-               
+               image_index = 0;
+               image_speed = 0;
             
         }
         break;
@@ -52,7 +53,8 @@ maquina_estados = function()
             {
                 
             
-            
+            image_index = 1;
+               image_speed = 0;
             
             x = xstart + random_range(-0.75, 0.75)
             
@@ -94,6 +96,8 @@ maquina_estados = function()
             
             x = xstart
             
+            image_index = 1;
+            image_speed = 0;
             
             //part_system_destroy(ps);
             

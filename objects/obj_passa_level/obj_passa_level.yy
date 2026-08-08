@@ -27,9 +27,9 @@
   "physicsShapePoints":[],
   "physicsStartAwake":true,
   "properties":[
-    {"$GMObjectProperty":"v2","%Name":"Destino","filters":[
+    {"$GMObjectProperty":"v2","%Name":"Destino_rm","filters":[
         "GMRoom",
-      ],"listItems":[],"multiselect":false,"name":"Destino","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":{"name":"rm_1","path":"rooms/rm_1/rm_1.yy",},"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"rm_1","varType":5,},
+      ],"listItems":[],"multiselect":false,"name":"Destino_rm","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":{"name":"rm_1","path":"rooms/rm_1/rm_1.yy",},"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"rm_1","varType":5,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
