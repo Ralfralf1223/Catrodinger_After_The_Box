@@ -125,12 +125,18 @@ aplica_velocidade = function ()
             
 movimento = function ()
 {
-    //movencollide_horizontal  
-  move_and_collide(velh, 0, colisoes, 4)
-    
-  //movencollide_vertical
-  move_and_collide(0, velv, colisoes, 24)   
-    
+  movimento = function ()
+{
+    if (velh != 0)
+    {
+        move_and_collide(velh, 0, colisoes, 24);
+    }
+
+    if (velv != 0)
+    {
+        move_and_collide(0, velv, colisoes, 24);
+    }
+}
     
 }
 
@@ -150,18 +156,36 @@ movimento = function ()
 
 
 
+//estado_parado = function ()
+//{
+    //aplica_velocidade();
+//
+    //atualiza_sprite("idle");
+//
+    //if (right xor left)
+        //estado = estado_movendo;
+//
+    //if (jump || !chao)
+        //estado = estado_pulando;
+        //
+//}
+
+
+
 estado_parado = function ()
 {
     aplica_velocidade();
-
     atualiza_sprite("idle");
 
     if (right xor left)
+    {
         estado = estado_movendo;
+    }
 
     if (jump || !chao)
+    {
         estado = estado_pulando;
-        
+    }
 }
 
 
@@ -186,7 +210,7 @@ estado_morrendo = function ()
     
     if (vida <= 0)
     {
-        
+        audio_play_sound(sd_morte, 1, 0)
         estado = estado_morto
         
     }
@@ -377,7 +401,7 @@ abre_porta = function ()
     if(_porta)
         if (keyboard_check_pressed(ord("E")) && _porta.estado == "fechada" && tipo_gato == 0 && estado != estado_caixa) 
         {
-        	
+        	audio_play_sound(sd_porta, 1, 0)
             _porta.estado = "abrindo";
             
         }

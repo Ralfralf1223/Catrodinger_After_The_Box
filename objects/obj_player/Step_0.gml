@@ -34,7 +34,17 @@ abre_porta();
 
 
 
-
+if (keyboard_check_pressed(ord("F")))
+{
+    show_debug_message("D: " + string(right));
+show_debug_message("A: " + string(left));
+show_debug_message("velh: " + string(velh));
+show_debug_message("x: " + string(x));
+show_debug_message("bbox_left: " + string(bbox_left));
+show_debug_message("bbox_right: " + string(bbox_right));
+show_debug_message("colisao direita: " + string(place_meeting(x + 1, y, colisoes)));
+show_debug_message("colisao esquerda: " + string(place_meeting(x - 1, y, colisoes)));
+}
 
 
 

@@ -2,7 +2,7 @@
   "$GMSprite":"v2",
   "%Name":"spr_caixa",
   "bboxMode":2,
-  "bbox_bottom":12,
+  "bbox_bottom":11,
   "bbox_left":-2,
   "bbox_right":17,
   "bbox_top":1,

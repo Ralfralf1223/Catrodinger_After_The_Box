@@ -3,6 +3,7 @@
 estado = "fechada";
 
 vida = alarm [0]
+timer_exp = 80
 
 //ps_porta_abrindo
 ps = part_system_create();
@@ -96,11 +97,18 @@ maquina_estados = function()
             
             x = xstart
             
-            image_index = 1;
+            image_index = 2;
             image_speed = 0;
+            timer_exp --;
+            if (timer_exp <= 0) 
+            {
+                instance_destroy()
+                audio_play_sound(sd_f_porta, 1, 0)
+                
+            }
+           
             
             //part_system_destroy(ps);
-            
         }        
         break;        
             

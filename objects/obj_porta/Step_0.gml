@@ -10,3 +10,5 @@ maquina_estados();
     //vida --;
 //}
 
+
+            

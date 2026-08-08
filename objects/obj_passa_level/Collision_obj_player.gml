@@ -1,6 +1,6 @@
 
 
-cria_transicao_inicia(Destino_rm)
+room_goto(Destino_rm)
 
 
 

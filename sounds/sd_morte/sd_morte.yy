@@ -1,6 +1,6 @@
 {
   "$GMSound":"v2",
-  "%Name":"sd_porta",
+  "%Name":"sd_morte",
   "audioGroupId":{
     "name":"audiogroup_default",
     "path":"audiogroups/audiogroup_default",
@@ -10,9 +10,9 @@
   "compression":0,
   "compressionQuality":4,
   "conversionMode":0,
-  "duration":0.5947619,
+  "duration":0.09809524,
   "exportDir":"",
-  "name":"sd_porta",
+  "name":"sd_morte",
   "parent":{
     "name":"Sons",
     "path":"folders/Sons.yy",
@@ -21,6 +21,6 @@
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"sd_porta.wav",
+  "soundFile":"sd_morte.wav",
   "volume":1.0,
 }
