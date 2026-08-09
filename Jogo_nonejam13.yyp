@@ -83,6 +83,7 @@
     {"id":{"name":"spr_acido","path":"sprites/spr_acido/spr_acido.yy",},},
     {"id":{"name":"spr_bg_03","path":"sprites/spr_bg_03/spr_bg_03.yy",},},
     {"id":{"name":"spr_botoes","path":"sprites/spr_botoes/spr_botoes.yy",},},
+    {"id":{"name":"spr_caixa_saida","path":"sprites/spr_caixa_saida/spr_caixa_saida.yy",},},
     {"id":{"name":"spr_caixa","path":"sprites/spr_caixa/spr_caixa.yy",},},
     {"id":{"name":"spr_fundo","path":"sprites/spr_fundo/spr_fundo.yy",},},
     {"id":{"name":"spr_fundo2","path":"sprites/spr_fundo2/spr_fundo2.yy",},},

@@ -35,9 +35,9 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_parede_pequena",
-    "path":"sprites/spr_parede_pequena/spr_parede_pequena.yy",
+    "name":"spr_caixa_saida",
+    "path":"sprites/spr_caixa_saida/spr_caixa_saida.yy",
   },
   "spriteMaskId":null,
-  "visible":false,
+  "visible":true,
 }
