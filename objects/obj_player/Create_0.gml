@@ -396,7 +396,7 @@ virtual_key_add(200, 500, 64, 64, vk_shift)
 abre_porta = function ()
 {
     
-    var _porta = instance_place(x + 10, y, obj_porta)
+    var _porta = instance_place(x + 8, y, obj_porta)
     
     if(_porta)
         if (keyboard_check_pressed(ord("E")) && _porta.estado == "fechada" && tipo_gato == 0 && estado != estado_caixa) 

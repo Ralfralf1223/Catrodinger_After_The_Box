@@ -4,10 +4,12 @@
   "ConfigValues":{
     "Windows":{
       "option_windows_allow_fullscreen_switching":"true",
-      "option_windows_description_info":"Jogo para nonejam13",
+      "option_windows_description_info":"Jogo para nonejam13 yeeeee",
       "option_windows_product_info":"Catrodinger: After The Box",
       "option_windows_display_name":"Catrodinger: After The Box",
       "option_windows_executable_name":"Catrodinger After The Box",
+      "option_windows_company_info":"sei la ainda nao tenho empresa",
+      "option_windows_display_cursor":"false",
     },
   },
   "name":"Windows",

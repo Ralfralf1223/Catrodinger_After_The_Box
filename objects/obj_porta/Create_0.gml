@@ -58,8 +58,8 @@ maquina_estados = function()
                image_speed = 0;
             
             x = xstart + random_range(-0.75, 0.75)
-            
-            
+            mask_index = spr_sem_colisao;
+                
             vspeed = - 0.5;
             
            

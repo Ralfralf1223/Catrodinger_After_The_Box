@@ -1,6 +1,11 @@
 {
   "$GMMacOptions":"",
   "%Name":"macOS",
+  "ConfigValues":{
+    "Windows":{
+      "option_mac_interpolate_pixels":"false",
+    },
+  },
   "name":"macOS",
   "option_mac_allow_fullscreen":false,
   "option_mac_allow_incoming_network":false,

@@ -10,14 +10,16 @@ draw_set_font(fnt_1)
 
 draw_text_transformed(192, 40, "CATRODINGER", 0.3, 0.3, 0);
 
-draw_text_transformed(192, 120, "JOGAR", 0.3, 0.3, 0);
+draw_text_transformed(192, 100, "JOGAR", 0.2, 0.2, 0);
 
-draw_text_transformed(192, 170, "SAIR", 0.3, 0.3, 0);
+draw_text_transformed(192, 140, "TUTORIAL", 0.2, 0.2, 0);
+
+draw_text_transformed(192, 180, "SAIR", 0.2, 0.2, 0);
 
 
 draw_text_transformed 
 ( 
-    107, 120 + opcao * 52, ">",0.3, 0.3, 0
+    107, 100 + opcao * 40 , ">",0.2, 0.2, 0
     
 )
 
